@@ -1,5 +1,6 @@
 const [url, sha, seconds = '90'] = process.argv.slice(2);
-const variableSinUsar = 123;
+const nombre= "Paco";
+const edad = 30;
 if (!url || !sha) {
   console.error('Uso: node scripts/wait-for-version.js URL SHA [SEGUNDOS]');
   process.exit(2);
